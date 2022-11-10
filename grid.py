@@ -1,8 +1,8 @@
+from cell import Cell
+
 import numpy as np
 from PIL import Image
-from cell import Cell
-#import colorama
-from colorama import Fore, Style, Back
+from colorama import Fore
 
 
 class Grid:

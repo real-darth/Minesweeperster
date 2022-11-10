@@ -1,7 +1,3 @@
-
-from xmlrpc.client import Boolean
-
-
 class Cell:
     def __init__(self, x: int, y: int, cell_scale: tuple) -> None:
         # Cell position and scale
