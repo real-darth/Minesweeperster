@@ -2,6 +2,7 @@
  A simple Minesweeper AI I made cause I want to be lazy
 
 <!-- Index Table -->
+<!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -13,8 +14,6 @@
     <li><a href="#how-to-use">How to use</a></li>
     <li><a href="#statistics">Statistics</a></li>
     <li><a href="#todo">TODO</a></li>
-    
-    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
 
