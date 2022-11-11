@@ -40,6 +40,7 @@ To stop the program, drag your mouse to the top-left corner of your screen. This
 
 ## TODO
 - [x] Usable on multiple board sizes.
+- [X] Mac version
 - [ ] Try to fix for multiple screen sizes (can scale the board in pixels).
 - [ ] mine count 6 and 7.
 - [ ] Better error handling.
