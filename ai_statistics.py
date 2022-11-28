@@ -16,6 +16,9 @@ class Stats:
 
     def __str__(self) -> str:
         msg = "WINS: " + str(self.wins) + " and LOSSES: " + str(self.losses) + '\n'
-        winrate = str(round((self.wins / self.total_games) * 100, 2))
-        msg = msg + "Winrate of: " + winrate
+        if (self.total_games > 0):
+            winrate = str(round((self.wins / self.total_games) * 100, 2))
+        else:
+            winrate = "None"
+        msg = msg + "Winrate of: " + winrate + "%"
         return msg

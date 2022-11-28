@@ -10,6 +10,8 @@ import colorama
 import pyautogui
 import cv2
 
+# for mac use size: 22
+
 def screen(top, left, w, h):
     with mss.mss() as sct:
         # The screen part to capture
@@ -131,7 +133,7 @@ def main() -> None:
             grid.update(img)
 
             # check if player wants to quit
-            if pyautogui.position() <= (800 // (divisor * 1.5), 600 // (divisor * 1.5)):
+            if pyautogui.position() <= (100 // (divisor * 1.5), 100 // (divisor * 1.5)):
                 print("moved mouse to stop game")
                 print(stats)
                 game = False
